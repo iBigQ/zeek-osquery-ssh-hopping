@@ -1,0 +1,8 @@
+[package]
+description = Detection script for ssh chaining on osquery hosts.
+tags = osquery, detection, ssh chain, ssh hopping
+version = 0.1.0
+depends =
+  zeek-osquery-framework ~0.1.0
+  zeek-osquery-host-conn ~0.1.0
+script_dir = scripts
